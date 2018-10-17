@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		74A6944F2175A36B00A25833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6944E2175A36B00A25833 /* AppDelegate.swift */; };
-		74A694512175A36B00A25833 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A694502175A36B00A25833 /* ViewController.swift */; };
+		74A694512175A36B00A25833 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A694502175A36B00A25833 /* HomeVC.swift */; };
 		74A694542175A36B00A25833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A694522175A36B00A25833 /* Main.storyboard */; };
 		74A694562175A36D00A25833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A694552175A36D00A25833 /* Assets.xcassets */; };
 		74A694592175A36D00A25833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A694572175A36D00A25833 /* LaunchScreen.storyboard */; };
+		74A694612175A54500A25833 /* LeftMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A694602175A54500A25833 /* LeftMenuVC.swift */; };
+		74A694632175A5D100A25833 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A694622175A5D100A25833 /* ContainerVC.swift */; };
+		74A694682175C3A500A25833 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A694672175C3A500A25833 /* SettingsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74A6944B2175A36B00A25833 /* SlideTray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideTray.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A6944E2175A36B00A25833 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74A694502175A36B00A25833 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74A694502175A36B00A25833 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		74A694532175A36B00A25833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74A694552175A36D00A25833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74A694582175A36D00A25833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74A6945A2175A36D00A25833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A694602175A54500A25833 /* LeftMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuVC.swift; sourceTree = "<group>"; };
+		74A694622175A5D100A25833 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		74A694672175C3A500A25833 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				74A6944E2175A36B00A25833 /* AppDelegate.swift */,
-				74A694502175A36B00A25833 /* ViewController.swift */,
+				74A694502175A36B00A25833 /* HomeVC.swift */,
+				74A694672175C3A500A25833 /* SettingsVC.swift */,
+				74A694602175A54500A25833 /* LeftMenuVC.swift */,
+				74A694622175A5D100A25833 /* ContainerVC.swift */,
 				74A694522175A36B00A25833 /* Main.storyboard */,
 				74A694552175A36D00A25833 /* Assets.xcassets */,
 				74A694572175A36D00A25833 /* LaunchScreen.storyboard */,
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74A694512175A36B00A25833 /* ViewController.swift in Sources */,
+				74A694632175A5D100A25833 /* ContainerVC.swift in Sources */,
+				74A694512175A36B00A25833 /* HomeVC.swift in Sources */,
 				74A6944F2175A36B00A25833 /* AppDelegate.swift in Sources */,
+				74A694612175A54500A25833 /* LeftMenuVC.swift in Sources */,
+				74A694682175C3A500A25833 /* SettingsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

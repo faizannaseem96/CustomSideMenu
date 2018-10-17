@@ -8,17 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class HomeVC: UIViewController {
+    
+    var delegate: SideMenuDelegate?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func menuTapped(_ sender : Any) {
+        delegate?.toggleLeftPanel()
+        //NotificationCenter.default.post(name: NSNotification.Name("ToggleSideMenu"), object: nil)
     }
+    
 
 
 }
